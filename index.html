@@ -5,75 +5,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Blog Pessoal</title>
 </head>
 
 <body>
-    <section>
-        <h1>
+    <div class="container">
+        <h1 class="title">
             Meu Blog Pessoal
         </h1>
-        <p>
-            <b>Nome: </b>Ruan de Queiroz<br>
-            <b>Data de Nascimento: </b>11/03/2005<br>
-            Desenvolvedor Web Front-End.
-            <b>Última Atualização: </b>27/10/2022<br>
-        </p>
-    </section>
-    <section>
-        <h1>
-            Minha Rotina
-        </h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin sapien tortor, quis porta quam
-            malesuada quis. Duis laoreet lorem arcu, id imperdiet risus vulputate quis. Aenean in orci ex. Fusce lacinia
-            consequat nisl. Proin tincidunt ut risus et feugiat. Duis feugiat iaculis ullamcorper. Mauris et neque vel
-            orci porttitor maximus. Proin eleifend mi id risus efficitur, quis sagittis massa iaculis. Donec venenatis
-            nulla nulla, ac vestibulum nibh vehicula tincidunt. Aenean rutrum tortor risus, eget tempus ante vestibulum
-            sed. Sed ligula lacus, sodales vitae lacus tempus, porttitor blandit urna.
+        <div class="header">
 
-            Nam tellus ligula, rhoncus eu cursus vitae, ultricies vitae augue. Etiam non libero sed nisi eleifend
-            convallis vel quis ex. Quisque maximus dapibus suscipit. Nam scelerisque leo feugiat, tristique lorem in,
-            viverra sem. Sed commodo pretium nisl, eget pellentesque nulla cursus eget. Nullam facilisis urna tristique,
-            scelerisque tortor vitae, consectetur nulla. Quisque ac leo sem. Pellentesque habitant morbi tristique
-            senectus et netus et malesuada fames ac turpis egestas. Etiam a justo nibh. Donec ligula lacus, tincidunt at
-            volutpat id, vestibulum vitae augue. Donec et nunc mauris. Duis imperdiet ipsum id dui gravida sagittis.
-            Proin ultrices mauris sit amet facilisis blandit. Quisque in fermentum nulla. Sed commodo lacus mattis
-            consequat commodo. Pellentesque dictum sed odio mollis convallis.
+            <div class="left-content">
+                <div class="box">
+                    <p><b>Nome: </b>Ruan de Queiroz<br></p>
+                </div>
+                <div class="box">
+                    <b>Data de Nascimento: </b>11/03/2005<br>
+                </div>
+            </div>
+            <div class="right-content">
+                <div class="box">
+                    <p>Desenvolvedor Web Front-End.</p>
 
-            Sed ac accumsan nulla, ac viverra metus. Sed placerat dolor et lorem iaculis, tincidunt dictum ante
-            ultrices. Aenean diam mi, fringilla vitae fermentum at, tincidunt et mauris. Etiam et hendrerit enim.
-            Vestibulum sapien orci, volutpat ac bibendum vitae, venenatis in sem. Pellentesque cursus, velit et pharetra
-            suscipit, elit nulla convallis est, quis pretium nulla ante et tortor. Donec non lectus sed est convallis
-            pretium ac non odio. Nulla et finibus elit.
-        </p>
-    </section>
-    <section>
-        <h1>
-            Meus Hobbies
-        </h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin sapien tortor, quis porta quam
-            malesuada quis. Duis laoreet lorem arcu, id imperdiet risus vulputate quis. Aenean in orci ex.
-        </p>
-    </section>
-    <section>
-        <h1>
-            Bandas ou artistas preferidos
-        </h1>
-        <p>
-            Projeto Sola, Guilherme de Sá.
-        </p>
-    </section>
-    <section>
-        <h1>
-            Viagens
-        </h1>
-        <p>
-            Nunca saí do Ceará, mas com o apoio da Flit espero conseguir recursos para tal. Gostaria de visitar
-            Brasília, São Paulo, Califórnia, Londres, Liverpool e Genebra.
-        </p>
-    </section>
+                </div>
+                <div class="box">
+                    <p><b>Última Atualização: </b>27/10/2022<br></p>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="content">
+
+
+
+            <div class="left-content">
+                <section class="lg-box orange">
+                    <h2>
+                        Minha Rotina
+                    </h2>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin sapien tortor,
+                        quis
+                        porta
+                        quam
+                        malesuada quis. Duis laoreet lorem arcu, id imperdiet risus vulputate quis.
+
+
+                    </p>
+                </section>
+                <section class="lg-box">
+                    <h2>
+                        Meus Hobbies
+                    </h2>
+                    <br>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin sapien tortor,
+                        quis
+                        porta
+                        quam
+                        malesuada quis. Duis laoreet lorem arcu, id imperdiet risus vulputate quis. Aenean in orci
+                        ex.
+                    </p>
+                </section>
+            </div>
+            <div class="right-content">
+                <section class="lg-box">
+                    <h2>
+                        Bandas ou artistas preferidos
+                    </h2>
+                    <br>
+                    <p>
+                        Projeto Sola, Guilherme de Sá.
+                    </p>
+                </section>
+                <section class="lg-box orange">
+                    <h2>
+                        Viagens
+                    </h2>
+                    <br>
+                    <p>
+                        Nunca saí do Ceará, mas com o apoio da Flit espero conseguir recursos para tal. Gostaria de
+                        visitar
+                        Brasília, São Paulo, Califórnia, Londres, Liverpool e Genebra.
+                    </p>
+                </section>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
