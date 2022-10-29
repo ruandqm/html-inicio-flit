@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 80vw;
+    max-height: 40vh;
+    margin: 1em;
+}
+
+span {
+    text-align: start;
+    margin: 1em;
+}
+
+.margin {
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
